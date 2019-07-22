@@ -27,7 +27,7 @@ class ActionsContainer extends React.Component{
     }
     render(){
         return(
-            <form onSubmit={this.formSubmit}>
+            <form className="form" onSubmit={this.formSubmit}>
                 <p>Name</p><input id='Name' onChange={this.handleFieldChange} placeholder='Name' value ={this.state.Name}></input>
                 <p>Age</p><input id='Age' onChange={this.handleFieldChange} placeholder='Age' value ={this.state.Age}></input>
                 <p>Height</p><input id='Height' onChange={this.handleFieldChange} placeholder='Height' value={this.state.Height}></input>
