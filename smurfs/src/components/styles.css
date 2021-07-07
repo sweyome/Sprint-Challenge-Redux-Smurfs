@@ -1,0 +1,38 @@
+.home{
+    display:inline-block;
+    padding: 20px;
+    margin: 10px;
+    background-image: linear-gradient(to left,#FF512F, #F09819);
+}
+
+
+.smurfWrapper{
+    display:flex;
+    flex-direction:column;
+}
+
+.smurf{
+    display:flex;
+}
+.smurfHeader{
+    font-size:2.3rem;
+    font-weight:bold;    
+}
+.smurfText{
+    font-size:2rem;
+}
+
+
+.editHeader{
+    font-size:2rem;
+    font-weight:bold;
+
+}
+.edit{
+    background-image: linear-gradient(to left,#085078, #85D8CE);
+}
+.input{
+    width:300px;
+    height:25px;
+    font-size:1.6rem;    
+}
